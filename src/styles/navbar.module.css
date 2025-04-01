@@ -1,0 +1,23 @@
+.underline {
+    position: relative;
+    /* Ensure relative positioning */
+    display: inline-block;
+    /* Adjust width to content */
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    /* Centering */
+    bottom: -3px;
+    /* Adjust position below the text */
+    width: 50%;
+    /* Adjust width */
+    height: 2px;
+    /* Set proper height */
+    background-color: rgb(85, 178, 74);
+    /* Correct way to color the underline */
+    transform: translateX(-50%);
+    /* Center the underline */
+}
