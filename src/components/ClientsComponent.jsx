@@ -1,9 +1,17 @@
 'use client'
 
-import React from 'react'
+import React from 'react';
+import { Box, Typography, Grid } from '@mui/material';
+import { ClientsCard } from './ClientsCard';
 
 export const ClientsComponent = () => {
   return (
-    <div>clientsComponent</div>
+    <Box
+        component={'section'}
+    >
+      <ClientsCard/>
+
+    </Box>
+
   )
 }
