@@ -24,9 +24,13 @@ export const AboutUsComponent = () => {
         <>
             <Box id={'about'} variant={'section'} minHeight={'70vh'} pt={10} sx={{
                 ...centerElementStyle,
-                width: "80vw",
+                width: {
+                    xs: "90vw", 
+                    md: "80vw", 
+                },
                 flexDirection: "column",
                 justifyContent: "flex-start",
+
                 marginTop: {
                     xs: 5,
                     md: 10
@@ -37,7 +41,7 @@ export const AboutUsComponent = () => {
                 className={'itemContainerShadow'}
             >
                 <Box component="header">
-                    <Typography variant='h5' className="underline">
+                    <Typography variant='h3' className="underline">
                         About us
                     </Typography>
                 </Box>
@@ -45,8 +49,15 @@ export const AboutUsComponent = () => {
                     sx={{
                         ...centerElementStyle,
                         marginTop: "50px",
+                        padding: 1.5, 
+                        gap: 2, 
                         paddingBottom: "130px",
+
                         position: "relative",
+                        flexDirection: {
+                            xs: "column",
+                            md: "row", 
+                        },
                         "&::after": {
                             content: `""`,
                             width: "200px",
@@ -174,6 +185,7 @@ export const AboutUsComponent = () => {
                 component="section"
                 sx={{
                     display: "flex",
+                    flexWrap: "wrap", 
                     justifyContent: "center",
                     alignItems: "center",
                     marginTop: 5,

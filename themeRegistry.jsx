@@ -21,7 +21,7 @@ let getTheme = (mode) => {
             customColors: {
                 black: "#000000",
                 lightBlack: "rgba(53, 49, 49)",
-                offWhite: "rgba(234, 232, 232)",
+                offWhite: "rgb(247, 249, 246)",
                 deepNavy: "rgb(30, 50, 90)",
                 goldenYellow: "rgb(240, 200, 80)",
                 red: "#ff1b1c",
