@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
     id: 1,
-    name: 'Rufus Oluwole Ogundapo',
+    name: 'Rufus Oluwole',
     position: 'Director',
     image:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
@@ -22,12 +22,17 @@ export const teamMembers = [
       {
         role: '',
         company: 'Credo Consult Ltd',
-        period: '2017 - 2019',
+        period: '2017 - 2018',
       },
       {
         role: '',
-        company: 'Credo Consult Ltd',
-        period: '2018 - present',
+        company: 'StonelMill Nigeria Ltd',
+        period: '2018 - 2022',
+      },
+      {
+        role: '',
+        company: 'Unity Bank Nigeria',
+        period: '2023 - Present',
       },
     ],
     education: [
