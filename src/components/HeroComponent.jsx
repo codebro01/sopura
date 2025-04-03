@@ -102,7 +102,6 @@ export const HeroComponent = () => {
             position={'relative'}
             zIndex={2}
             mt={15}
-            letterSpacing={3}
             textTransform={'uppercase'}
             data-aos="fade-up"
             data-aos-duration="500"
@@ -118,7 +117,7 @@ export const HeroComponent = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Gateway to Africa’s financial market Hub.
+            Gateway to Africa’s financial market hub.
           </Typography>
           <Box
             sx={{
