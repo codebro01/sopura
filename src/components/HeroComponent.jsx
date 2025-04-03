@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react'
 import { Box, Grid, Typography, Button } from '@mui/material'
-import Link  from 'next/link'
+import Link from 'next/link'
 import { UseTheme } from '../../UseTheme'
 import { IconsCardComponent } from './IconsCardComponent'
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance'
@@ -177,7 +177,7 @@ export const HeroComponent = () => {
           flexBasis={'30%'}
           // flexGrow={1}
           component={'img'}
-          src="finance app.gif"
+          src="finance-app.gif"
           variant="section"
           sx={{
             ...centerElementStyle,
