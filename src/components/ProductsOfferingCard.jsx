@@ -1,10 +1,15 @@
 import React from 'react'
 import { Box, Typography, Button, Grid } from '@mui/material';
 import { ArrowForward } from '@mui/icons-material';
+import { ThreeDotsComponent } from './ThreeDotsComponent';
 
-export const ProductsOfferingCard = ({ title, Icon, color, description }) => {
+export const ProductsOfferingCard = ({ title, Icon, color, description, aosValue, aosAnchorPlacement, aosDuration }) => {
   return (
     <Box
+       data-aos = {aosValue}
+       data-aos-anchor-placement = {aosAnchorPlacement}
+       data-aos-duration = {aosDuration}
+      id = {"services"}
       sx={{
         width:"100%", 
         minWidth: "300px", 
@@ -14,6 +19,7 @@ export const ProductsOfferingCard = ({ title, Icon, color, description }) => {
         borderRadius: 2,
         boxShadow: 2,
         overflow: 'hidden',
+        cursor: 'pointer', 
         transition: 'all 0.3s',
         '&:hover': {
           boxShadow: 6,
@@ -42,17 +48,8 @@ export const ProductsOfferingCard = ({ title, Icon, color, description }) => {
         </Typography>
         <Typography color="text.secondary">{description}</Typography>
         <Box sx={{ mt: 3, display: 'flex', alignItems: 'center' }}>
-          <Button
-            sx={{ color, fontSize: '0.875rem', fontWeight: 500, background: "transparent", 
-            transition: "background 0.25s ease-in-out",
-            "&:hover": {
-              background: "rgba(220, 220, 220)", 
-            }
-             }}
-            endIcon={<ArrowForward sx={{ fontSize: 16 }} />}
-          >
-            Learn more
-          </Button>
+                  <ThreeDotsComponent color = {color} />
+          
         </Box>
       </Box>
     </Box>

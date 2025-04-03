@@ -5,7 +5,9 @@ import { CssBaseline, createTheme, responsiveFontSizes, ThemeProvider } from "@m
 import { Geist, Geist_Mono, Kanit, Outfit } from "next/font/google";
 import ThemeRegistry from "../../themeRegistry";
 import {NavbarComponent} from '../components/NavbarComponent'
+import { Footer } from "@/components/Footer";
 import "./globals.css";
+import 'aos/dist/aos.css';
 import 'animate.css';
 
 
@@ -37,12 +39,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} ${outfit.variable} antialiased`}>
-          <ThemeRegistry>
-          <NavbarComponent/>  
-            {children}
-          </ThemeRegistry>
+        className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} ${outfit.variable} antialiased`}
+      >
+        <ThemeRegistry>
+          <NavbarComponent />
+
+          {children}
+          <Footer/>
+        </ThemeRegistry>
       </body>
     </html>
-  );
+  )
 }

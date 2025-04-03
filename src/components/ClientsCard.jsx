@@ -5,10 +5,13 @@ import {Box, Typography, IconButton} from "@mui/material";
 import { Landmark } from 'lucide-react';
 import { UseTheme } from '../../UseTheme';
 
-export const ClientsCard = ({title, icon, color}) => {
+export const ClientsCard = ({title, icon, color, aosValue, anchorPlacement, delay}) => {
   const colors = UseTheme();
   return (
     <Box
+      data-aos={aosValue}
+      data-aos-anchor-placement={anchorPlacement}
+      data-aos-delay={delay}
       display={'flex'}
       gap={2}
       justifyContent={'center'}

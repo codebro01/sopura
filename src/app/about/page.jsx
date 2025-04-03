@@ -1,24 +1,22 @@
+import Image from 'next/image'
+import { Grid, Box } from '@mui/material'
+import Aboutpage from './aboutPage'
 
-"use client";
+export const metadata = {
+  title: 'Sopura | About',
+  description:
+    'Sopura Business Concept is a financial service provider with exclusivity in inter-dealer broking of financial instruments  between dealers and financial institutions.',
+  keywords:
+    'business, concept, sopura, sopura Nigeria, Nigeria, finance, company ',
+  icons: {
+    icon: '/logo.png', // or '/favicon.png'
+  },
+}
 
-import { Button } from "@mui/material";
-
-import Image from "next/image";
-
-const AboutPage = () => {
+export default function Home() {
   return (
     <>
-    <Button variant="contained">
-      Click me
-    </Button>
-      <Image
-        src={"/home.svg"}
-        width={100}
-        height={100}
-      />
-      <div>About Page</div>
+      <Aboutpage />
     </>
-
   )
 }
-export default AboutPage;

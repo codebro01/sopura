@@ -16,7 +16,7 @@ export const NavbarComponent = () => {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
   console.log(isSmallScreen)
   console.log(theme.breakpoints.down('xs'))
-  const [navIsActive, setNavIsActive] = useState(true);
+  const [navIsActive, setNavIsActive] = useState(false);
   const [toggle, setToggle] = useState(false);
 
   const pathname = usePathname();
@@ -131,7 +131,7 @@ export const NavbarComponent = () => {
             ...centerElementStyle,
           }}
         >
-          <Link href={'/services'} className={highLightCurrentPage('/services') ? 'underline' : ''}
+          <Link href={'/#services'} className={highLightCurrentPage('/#services') ? 'underline' : ''}
             style={{
               fontSize: "clamp(14px, 3vw, 18px)",
               padding: isSmallScreen ? "5px" : 0,
@@ -139,10 +139,23 @@ export const NavbarComponent = () => {
             }}
           >Services</Link>
         </Box>
+        <Box component={'li'}
+          sx={{
+            ...centerElementStyle,
+          }}
+        >
+          <Link href={'/#team'} className={highLightCurrentPage('/#team') ? 'underline' : ''}
+            style={{
+              fontSize: "clamp(14px, 3vw, 18px)",
+              padding: isSmallScreen ? "5px" : 0,
+              fontSize: isSmallScreen && "30px",
+            }}
+          >Team</Link>
+        </Box>
       </Box>
 
       <Box>
-        <Button variant="outlined">Get Started</Button>
+        <Button variant="outlined">Contact us</Button>
       </Box>
 
       <IconButton sx={{

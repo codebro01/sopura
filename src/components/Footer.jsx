@@ -30,7 +30,7 @@ export const Footer = () => {
         padding: 'clamp(10px, 10vw, 30px)',
         mt: 7,
         width: '100%',
-        background: 'rgb(245, 249, 246)',
+        // background: 'rgb(245, 249, 246)',
         // backgroundImage: "url('/footerBackground.svg')",
         zIndex: 3,
         gap: 2,
@@ -86,7 +86,6 @@ export const Footer = () => {
         }}
       >
         <Typography variant="h5" fontWeight={700}>
-          <LinkIcon size={28} color={colors.primary} />
           Links
         </Typography>
         <Box component={'li'} mt={1}>
@@ -103,12 +102,13 @@ export const Footer = () => {
           <Link href={'/services'}>Services</Link>
         </Box>
       </Box>
+
       <Box
         id="contact"
         sx={{
           flexBasis: {
             xs: '100%',
-            md: '45%',
+            md: '30%',
           },
           display: 'flex',
           flexDirection: 'column',
@@ -122,22 +122,27 @@ export const Footer = () => {
         }}
       >
         <Typography variant="h5" fontWeight={700}>
-          <MapPinned size={28} color={colors.primary} /> Contact
+           Contact
         </Typography>
         <Box id="address" mt={1}>
-          <MapPinHouse color={colors.primary} />
-          <Typography>
-            No 12b Fatai Idowu Arobieke Street, Off Admiralty, Lekki Phase 1,
-            Lagos
-          </Typography>
+          <Box>
+            {' '}
+            <MapPinHouse color={colors.primary} />
+          </Box>
+          <Typography>34, Ijaiye Road, off Akilo Road, Ogba -Lagos</Typography>
         </Box>
         <Box id="email">
           <Mail color={colors.primary} />
-          <Typography>fixedincome@zircontrustsecurities.com</Typography>
+          <Typography>sopurabiz@gmail.com</Typography>
         </Box>
-        <Box id="Phone No">
-          <Phone color={colors.primary} />
-          <Typography>(+234)8180905531</Typography>
+        <Box id="Phone No" display={'flex'} alignItems={'center'}>
+          <Box>
+            <Phone color={colors.primary} />
+          </Box>
+          <Box>
+            <Typography>(+234) 817 5051 618</Typography>
+            <Typography>(+234) 806 3596 078</Typography>
+          </Box>
         </Box>
       </Box>
     </Box>
