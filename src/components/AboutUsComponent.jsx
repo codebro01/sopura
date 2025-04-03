@@ -77,8 +77,8 @@ useEffect(() => {
             '&::after': {
               content: `""`,
               width: {
-                xs: "200px", 
-                md: "350px"
+                xs: '200px',
+                md: '350px',
               },
               height: '10px',
               position: 'absolute',
@@ -394,7 +394,7 @@ useEffect(() => {
           dataAosDuration={'400'}
           title="Facilitating Information Flow
 "
-          subtitle="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          subtitle="Sopura has to commitment to ensure seamless communication and data exchange across systems, teams, or users, enabling efficient decision-making and collaboration."
           icon={<RocketIcon />}
           color="#ff9800"
         />
