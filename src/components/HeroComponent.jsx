@@ -45,7 +45,10 @@ export const HeroComponent = () => {
             xs: 'wrap',
             md: 'nowrap',
           },
-          gap: 5,
+          gap: {
+            xs: 0, 
+            md: 4, 
+          },
           padding: {
             xs: 1,
             md: 3,
@@ -91,7 +94,10 @@ export const HeroComponent = () => {
             },
             // minWidth: '80vw',
             width: '100%',
-            gap: 5,
+            gap: {
+              xs: 3, 
+              md: 5
+            },
             flexDirection: 'column',
           }}
         >
