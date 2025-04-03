@@ -22,16 +22,16 @@ export const teamMembers = [
       {
         role: '',
         company: 'Credo Consult Ltd',
-        period: '2017 - 2018',
-      },
-      {
-        role: '',
-        company: 'StonelMill Nigeria Ltd',
-        period: '2018 - 2022',
+        period: '2017 - 2020',
       },
       {
         role: '',
         company: 'Unity Bank Nigeria',
+        period: '2020 - 2023',
+      },
+      {
+        role: '',
+        company: 'StonelMill Nigeria Ltd',
         period: '2023 - Present',
       },
     ],

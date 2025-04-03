@@ -290,7 +290,7 @@ useEffect(() => {
                   <CircleCheckBig size={28} color={colors.primary} />
 
                   <Typography>
-                    Incorporated in 2020, ZIRCONTRUST Ltd is licensed by SEC and
+                    Incorporated in 2020, Sopura Business Concept is licensed by SEC and
                     FMDQ
                   </Typography>
                 </Box>
