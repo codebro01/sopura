@@ -99,7 +99,11 @@ export const Footer = () => {
         </Box>
         <Box component={'li'}>
           <ArrowRight size={28} color={colors.primary} />
-          <Link href={'/services'}>Services</Link>
+          <Link href={'/#services'}>Services</Link>
+        </Box>
+        <Box component={'li'}>
+          <ArrowRight size={28} color={colors.primary} />
+          <Link href={'/#team'}>Team</Link>
         </Box>
       </Box>
 
