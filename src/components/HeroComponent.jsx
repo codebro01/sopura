@@ -177,7 +177,7 @@ export const HeroComponent = () => {
           flexBasis={'30%'}
           // flexGrow={1}
           component={'img'}
-          src="finance-app.gif"
+          src="Finance-app.gif"
           variant="section"
           sx={{
             ...centerElementStyle,
