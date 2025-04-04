@@ -126,7 +126,7 @@ export const Footer = () => {
         }}
       >
         <Typography variant="h5" fontWeight={700}>
-           Contact
+          Contact
         </Typography>
         <Box id="address" mt={1}>
           <Box>
@@ -137,7 +137,7 @@ export const Footer = () => {
         </Box>
         <Box id="email">
           <Mail color={colors.primary} />
-          <Typography>sopurabiz@gmail.com</Typography>
+          <Typography>finance@sopurabiz.com.ng</Typography>
         </Box>
         <Box id="Phone No" display={'flex'} alignItems={'center'}>
           <Box>

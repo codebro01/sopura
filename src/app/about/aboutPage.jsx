@@ -129,7 +129,7 @@ const Aboutpage = () => {
                     our clients
                   </Typography>
                 </Box>
-                <Box
+                {/* <Box
                   component={'li'}
                   sx={{
                     display: 'flex',
@@ -145,7 +145,7 @@ const Aboutpage = () => {
                     Incorporated in 2020, Sopura Business Concept is licensed by SEC and
                     FMDQ
                   </Typography>
-                </Box>
+                </Box> */}
                 <Box
                   component={'li'}
                   sx={{

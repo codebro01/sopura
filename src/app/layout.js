@@ -40,6 +40,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="canonical" href="https://www.sopurabiz.com.ng/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            url: 'https://www.sopurabiz.com.ng',
+            logo: 'https://www.sopurabiz.com.ng/logo.png',
+          })}
+        </script>
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} ${outfit.variable} antialiased`}

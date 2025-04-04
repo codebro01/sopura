@@ -186,12 +186,28 @@ useEffect(() => {
                   <Box>
                     <CircleCheckBig size={28} color={colors.primary} />
                   </Box>
+
+                  <Typography>
+                    We strive to be the best in service and support delivery to
+                    our clients
+                  </Typography>
+                </Box>
+                {/* <Box
+                  component={'li'}
+                  sx={{
+                    display: 'flex',
+                    gap: 2,
+                  }}
+                >
+                  <Box>
+                    <CircleCheckBig size={28} color={colors.primary} />
+                  </Box>
                   <Typography>
                     We act as financial intermediaries in the markets working to
                     facilitate seamless transactions between broker/dealers or
                     Market Makers in the Nigeria Financial market.
                   </Typography>
-                </Box>
+                </Box> */}
               </Box>
             </Box>
           </Box>
@@ -266,7 +282,7 @@ useEffect(() => {
                   },
                 }}
               >
-                <Box
+                {/* <Box
                   component={'li'}
                   sx={{
                     display: 'flex',
@@ -279,8 +295,24 @@ useEffect(() => {
                     We strive to be the best in service and support delivery to
                     our clients
                   </Typography>
-                </Box>
+                </Box> */}
                 <Box
+                  component={'li'}
+                  sx={{
+                    display: 'flex',
+                    gap: 2,
+                  }}
+                >
+                  <Box>
+                    <CircleCheckBig size={28} color={colors.primary} />
+                  </Box>
+                  <Typography>
+                    We act as financial intermediaries in the markets working to
+                    facilitate seamless transactions between broker/dealers or
+                    Market Makers in the Nigeria Financial market.
+                  </Typography>
+                </Box>
+                {/* <Box
                   component={'li'}
                   sx={{
                     display: 'flex',
@@ -293,7 +325,7 @@ useEffect(() => {
                     Incorporated in 2020, Sopura Business Concept is licensed by SEC and
                     FMDQ
                   </Typography>
-                </Box>
+                </Box> */}
               </Box>
             </Box>
           </Box>
