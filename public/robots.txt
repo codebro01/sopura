@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sopurabiz.com.ng
+
+# Sitemaps
+Sitemap: https://www.sopurabiz.com.ng/sitemap.xml

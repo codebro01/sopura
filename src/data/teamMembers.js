@@ -26,13 +26,13 @@ export const teamMembers = [
       },
       {
         role: '',
-        company: 'StonelMill Nigeria Ltd',
-        period: '2018 - 2022',
+        company: 'Unity Bank PLC',
+        period: '2018 - 2023',
       },
       {
         role: '',
-        company: 'Unity Bank Nigeria',
-        period: '2022 - 2024',
+        company: 'StonelMill Nigeria Ltd',
+        period: '2024 - Present',
       },
     ],
     education: [
