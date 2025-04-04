@@ -11,6 +11,21 @@ export const metadata = {
   icons: {
     icon: '/logo.png', // or '/favicon.png'
   },
+  openGraph: {
+    type: 'website',
+    url: 'https://www.sopurabiz.com.ng',
+    title: 'Sopura Business Concept',
+    description:
+      'Sopura Business Concept is a financial service provider with exclusivity in inter-dealer broking of financial instruments.',
+    images: [
+      {
+        url: 'https://www.sopurabiz.com.ng/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sopura Biz Logo',
+      },
+    ],
+  },
 }
 
 export default function Home() {
