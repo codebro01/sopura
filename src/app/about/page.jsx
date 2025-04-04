@@ -7,7 +7,7 @@ export const metadata = {
   description:
     'Sopura Business Concept is a financial service provider with exclusivity in inter-dealer broking of financial instruments  between dealers and financial institutions.',
   keywords:
-    'business, concept, sopura, sopura Nigeria, Nigeria, finance, company ',
+    'business, concept, sopura, sopura finance, business, nigeria, sopura africa, sopura, sopura, sopura Nigeria, Nigeria, finance, company ',
   icons: {
     icon: '/logo.png', // or '/favicon.png'
   },
