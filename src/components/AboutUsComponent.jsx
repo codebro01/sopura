@@ -413,15 +413,6 @@ useEffect(() => {
         />
         <CardComponent
           dataAosAnimation={'fade-up'}
-          anchorPlacement={'bottom-bottom'}
-          dataAosDuration={'200'}
-          title="Enhancing Price Discovery"
-          subtitle="Sopura has a commitment to enhancing price discovery and transparency between clients’ interest and transactions"
-          icon={<LightbulbIcon />}
-          color="#f50057"
-        />
-        <CardComponent
-          dataAosAnimation={'fade-up'}
           anchorPlacement={'center-bottom'}
           dataAosDuration={'400'}
           title="Facilitating Information Flow
@@ -429,6 +420,15 @@ useEffect(() => {
           subtitle="Sopura has to commitment to ensure seamless communication and data exchange across systems, teams, or users, enabling efficient decision-making and collaboration."
           icon={<RocketIcon />}
           color="#ff9800"
+        />
+        <CardComponent
+          dataAosAnimation={'fade-up'}
+          anchorPlacement={'bottom-bottom'}
+          dataAosDuration={'200'}
+          title="Enhancing Price Discovery"
+          subtitle="Sopura has a commitment to enhancing price discovery and transparency between clients’ interest and transactions"
+          icon={<LightbulbIcon />}
+          color="#f50057"
         />
       </Box>
     </>
