@@ -23,6 +23,8 @@ export const SplideJsComponent = () => {
     <Box
       sx={{
         marginTop: '6rem',
+        paddingTop: '4rem',
+        paddingBottom: '4rem',
         // backgroundImage: "url('sliderbg.jpg')",
         background: 'rgba(0, 0, 0, 0.9)',
         width: '100%',
