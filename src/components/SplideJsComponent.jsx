@@ -26,7 +26,7 @@ export const SplideJsComponent = () => {
         paddingTop: '4rem',
         paddingBottom: '4rem',
         // backgroundImage: "url('sliderbg.jpg')",
-        background: 'rgba(0, 0, 0, 0.9)',
+        background: 'rgba(239, 239, 239, 0.9)',
         width: '100%',
         minHeight: {
           xs: '50vh',
