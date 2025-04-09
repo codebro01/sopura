@@ -183,6 +183,7 @@ export const HeroComponent = () => {
           // flexGrow={1}
           component={'img'}
           src="Finance-app.gif"
+          // src="Artboard 1Sopura ads.png"
           variant="section"
           sx={{
             ...centerElementStyle,

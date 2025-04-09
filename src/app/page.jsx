@@ -8,6 +8,7 @@ import { ClientsComponent } from '@/components/ClientsComponent'
 import { ProductOffering } from '@/components/ProductOfferingComponent'
 import { TeamSection } from '@/components/TeamMembersComponent'
 import { Footer } from '@/components/Footer'
+import { SplideJsComponent } from '@/components/SplideJsComponent';
 
 export const metadata = {
   title: 'Sopura | Home',
@@ -36,6 +37,8 @@ export const metadata = {
   },
 }
 
+
+
 export default function Home() {
   return (
     <>
@@ -47,6 +50,7 @@ export default function Home() {
       >
         <HeroComponent />
         <AboutUsComponent />
+        <SplideJsComponent />
         <ClientsComponent />
         <ProductOffering />
         <TeamSection />
